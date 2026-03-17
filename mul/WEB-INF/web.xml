@@ -1,0 +1,13 @@
+<web-app>
+
+<servlet>
+    <servlet-name>TableServlet</servlet-name>
+    <servlet-class>com.demo.bean.TableServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>TableServlet</servlet-name>
+    <url-pattern>/table</url-pattern>
+</servlet-mapping>
+
+</web-app>
